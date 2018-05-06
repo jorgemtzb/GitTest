@@ -11,6 +11,8 @@ import app.jorge.bean.Carro;
  */
 public class Main {
 	public static void main(String[] args) {
+		String nombre = "Jorge Martinez Badillo";
+		
 		Carro car = new Carro("tsuru", 1992, "rojo", "tsuru rojo 1992", "df2345d".toCharArray());
 		Carro car2 = new Carro("neon", 1992, "azul", "neon azul 1992", "ss343d".toCharArray());
 		System.out.println("modelo: " + car.getModelo() + " año: "+ car.getYear() + " colo: "+ car.getColor() + " descripcion: " + car.getDescripcion() + " matricula: " + String.valueOf(car.getMatricula()));
